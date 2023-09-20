@@ -1,0 +1,10 @@
+[webservers]
+172.17.0.2
+
+[database_servers]
+3.87.24.252
+3.87.24.253
+
+[fullstack:children]
+webservers
+database_servers
